@@ -17,3 +17,23 @@
 ### その他・メモ
 
 - AgentManagerでのスレッド分割によるコンテキスト分離の重要性を確認。テーマごとのスレッド運用はAIのハルシネーションを未然に防ぎ、作業精度を最大化するためのベストプラクティスである。
+
+## 2026-02-20 08:14
+
+### 作業進捗
+
+- Agent Managerの3大機能（Playground, Knowledge, Browser）の役割の理解とドキュメント化 (`001_agent_manager_overview.md`)
+- Knowledge機能のスレッドごとのアタッチ運用とベストプラクティス（`000_document_formatting_guidelines.md` の作成を含む）の構築 (`002_knowledge_usage_and_mechanism.md`)
+- 右上3点リーダーメニューの機能解説のドキュメント化 (`003_ellipsis_menu_functions.md`)
+- Agent Managerの便利設定（チャット送信ショートカット、Auto-Approve）に関する調査とドキュメント化 (`004_agent_manager_settings.md`)
+- 本日のAgent Managerに関する学習内容をトランスクリプト（`010_chat_history_transcript.md`）へ追記し完了
+
+### 残りのタスク
+
+- 今後の開発における各Agent Manager機能の実践的な活用
+- より複雑なタスクでのAuto-Approve/Yoloモードの検証と導入
+
+### その他・メモ
+
+- Agent Managerのチャット送信キーバインド（Cmd+Enterへの変更）は現状の仕様ではカスタマイズ不可能であることを確認。
+- 長文プロンプト作成時や誤送信防止のため、プロンプトは外部エディタで下書きする運用を基本とする。
